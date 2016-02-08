@@ -1,0 +1,16 @@
+{
+    "parser": "babel-eslint",
+    "extends": "airbnb",
+    "rules": {
+      "comma-dangle": [2, "never"],
+      "brace-style": [2, "stroustrup"],
+      "new-cap": [2, { "newIsCap": true, "capIsNew": false }],
+      "func-names": 2,
+      "no-sequences": 0,
+      "no-unused-vars": 2,
+      "no-param-reassign": [2, {"props": false}]
+    },
+    "env": {
+      "mocha": true
+    }
+}
